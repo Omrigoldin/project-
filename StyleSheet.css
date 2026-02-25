@@ -1,0 +1,32 @@
+﻿body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #efeded;
+}
+
+.wraper {
+    border: solid black;
+}
+
+.top {
+    background-color: #2b2b2b;
+    height: 50px;
+    display: flex;
+    height: 105px;
+    width: 1778px;
+
+}
+
+.logo {
+    border-left: 119px;
+    width: 75px;
+    height: 37px;
+}
+.logo-text {
+    border-left:199px;
+}
+.links {
+    text-decoration: none;
+    border-left:967px;
+    gap : 50px;
+}
