@@ -1,4 +1,4 @@
-﻿body {
+body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-color: #efeded;
@@ -10,23 +10,73 @@
 
 .top {
     background-color: #2b2b2b;
-    height: 50px;
     display: flex;
-    height: 105px;
-    width: 1778px;
-
+    height: 100px;
 }
 
-.logo {
-    border-left: 119px;
-    width: 75px;
-    height: 37px;
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 6%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
 }
-.logo-text {
-    border-left:199px;
+
+.yacht-pic{
+    height: 30px;
+    width: 70px;
 }
-.links {
+
+.logo-text{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.links{
+    width: 50%;
+    display: flex;
+    gap: 15%;
+    align-items: center;
+}
+
+.link{
     text-decoration: none;
-    border-left:967px;
-    gap : 50px;
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.main-texts{
+    display: flex;
+}
+
+.left-middle{
+    width:60%;
+}
+
+.right-middle{
+    width:40%;
+    font-weight: 900;
+    
+}
+
+.big-title{
+    justify-content: center;
+    align-items: center;
+    font-size:140px;
+    display: grid;
+    padding-top: 7%;
+}
+
+.main-photo{
+    width: 90%;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.big-title-item{
+    height: 130px;
 }
