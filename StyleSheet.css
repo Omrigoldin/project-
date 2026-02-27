@@ -1,82 +1,224 @@
-body {
+body 
+{
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-color: #efeded;
 }
 
 .wraper {
-    border: solid black;
+    width: 100%;
+    overflow: hidden;
 }
 
 .top {
     background-color: #2b2b2b;
     display: flex;
-    height: 100px;
+    justify-content: space-between  ;
+    align-items: center;
+    padding: 0 5%;
+    height: 80px;
 }
 
-.logo{
-    width: 50%;
+.logo {
+
     display: flex;
     align-items: center;
-    margin-left: 6%;
     color: white;
-    font-size: large;
     font-weight: bold;
 }
-
-.yacht-pic{
-    height: 30px;
-    width: 70px;
-}
-
 .logo-text{
-    margin-top: 20px;
-    margin-left: 5px;
-}
-
-.links{
-    width: 50%;
-    display: flex;
-    gap: 15%;
-    align-items: center;
-}
-
-.link{
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    font-size: larger;
-}
-
-.main-texts{
-    display: flex;
-}
-
-.left-middle{
-    width:60%;
-}
-
-.right-middle{
-    width:40%;
-    font-weight: 900;
+    margin-top:20px;
+    font-weight:700;
     
 }
 
-.big-title{
-    justify-content: center;
+.yacht-pic {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.links {
+    display: flex;
+    gap: 100px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.main-texts {
+    display: flex;
+    padding: 50px 5%;
+    gap: 20px;
+}
+
+.registration-area {
+    display: flex;
     align-items: center;
-    font-size:140px;
-    display: grid;
-    padding-top: 7%;
+    gap: 20px;
+    margin-top: 30px; 
 }
 
-.main-photo{
-    width: 90%;
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-bottom: 50px;
+.free-reg-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #333;
+    border-radius: 12px;
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    min-width: 140px;
+    height: 60px;
+    line-height: 1.2;
+    background-color: transparent;
 }
 
-.big-title-item{
-    height: 130px;
+.bown-text {
+    flex: 1; 
+    font-size: 14px;
+    color: #444;
+    line-height: 1.4;
+    max-width: 450px;
 }
+
+.img {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.main-photo {
+    width: 100%;
+    display: block;
+}
+
+.text-in-photo {
+    font-family: Arp Display 240 Black;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    background-color: #4fb0c6;
+    color: white;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 1;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.left-middle .bottom {
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+}
+
+    .left-middle .bottom a {
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        padding: 15px 20px;
+        font-weight: bold;
+        border-radius: 10px;
+        text-align: center;
+        flex-shrink: 0; 
+        width: 140px;
+        font-size: 18px;
+    }
+
+.bown-text {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.4;
+    max-width: 400px;
+}
+
+.right-middle {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    text-align: center;
+    padding-top: 50px; 
+}
+
+    .right-middle .bottom {
+        margin-top:2000px;
+    }
+
+.big-title {
+    font-family: 'Arp Display 240 Black', sans-serif;
+    font-size: 130px;
+    font-weight: 800;
+    color: #70afc4;
+    text-transform: capitalize;
+    line-height: 0.9;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.big-title-item {
+    height: auto;
+    display: block;
+}
+
+
+.right-middle .bottom {
+    margin-top: 0; 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top:90px;
+    position: relative;
+    top: -20px;
+}
+
+    .right-middle .bottom a {
+        background-color: #64a6bd;
+        color: white;
+        text-decoration: none;
+        padding: 15px 50px;
+        border-radius: 5px;
+        font-size: 22px;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+
+.down-line {
+    background-color: #2b2b2b; 
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 5%; 
+    margin-top: 40px;
+}
+
+.left-dowm {
+    display: flex;
+    gap: 10px; 
+    font-size: 24px;
+}
+
+.date {
+    font-weight: normal;
+}
+
+.time {
+    font-weight: bold; 
+}
+
